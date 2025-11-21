@@ -1,13 +1,9 @@
 from machine import Pin
 import time
+from libmotor import carro_adelante, carro_atras, carro_derecha, carro_izquierda, carro_parar
 
-#motor1a
-motor1_pin_a = Pin(12, Pin.OUT)
-motor1_pin_b = Pin(13, Pin.OUT)
 
-#motor2a
-motor2_pin_a = Pin(18, Pin.OUT)
-motor2_pin_b = Pin(19, Pin.OUT)
-
-motor1_pin_a.on()
-motor1_pin_b.off()
+#llamar la funcion carro adelante
+carro_adelante()
+time.sleep(2)
+carro_parar()
