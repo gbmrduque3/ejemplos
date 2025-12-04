@@ -16,4 +16,4 @@ Se llama a la librería que contiene los movimientos de los motores para hacer q
 Se busca el dispositivo I2C,  y muestra un texto en la pantalla del dispositivo que dice “mocosos feos :3”.
 
 ## rgbneopixel
-hace que tres leds se prendan con colosres especificos cada uno, rojo, verde y azul.
+hace que tres leds se prendan con colores especificos cada uno, rojo, verde y azul.
